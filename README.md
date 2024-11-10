@@ -1,6 +1,8 @@
 # MOSAIC_WALLS_CORE24
 This repository contains the codes for the Mosaic Walls project of the CORE 2024 course at TU Delft.
 
+Please look at the video Mosaic_Walls_Video_Code, which shows you step by step how to run the code. 
+
 The code should be run in the following way: 
 
 in GitHub:
@@ -17,7 +19,7 @@ in GitHub:
         - the photo is scaled to the size of the backdrop of the photo *10. this ensures that the pixels correspond to real-life geometry
 
 in Grasshopper (further instructions can be found in the gh file):
-- open the grasshopper file ??????
+- open the grasshopper file 00_FINALCODE.gh in the grasshopper_files folder
 - open the stone_input component and update the path to the csv files
 - due to the translation of a 3D object into a 2D file, the contour is distorted
 - the gh code fixes this distortion with an input for the stone thickness and the camera height
