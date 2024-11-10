@@ -22,7 +22,7 @@ ______________
 GRASSHOPPER
 ______________
 
-![Test](https://github.com/Nova7397/MudTracker3D/blob/main/media/Main%20Workflow.png)
+![Test](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/Artboard%201%20copy.jpg)
 
 STEP 1: File SetUp
 
