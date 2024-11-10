@@ -21,6 +21,9 @@ ______________
 
 GRASSHOPPER
 ______________
+
+![Test](https://github.com/Nova7397/MudTracker3D/blob/main/media/Main%20Workflow.png)
+
 STEP 1: File SetUp
 
 Version and Plugin requirements:
