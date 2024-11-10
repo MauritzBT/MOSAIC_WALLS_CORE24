@@ -11,10 +11,10 @@ frame_size_h = 200
 for i in range(image_nbr+1):
     
     # Paths
-    rubble_path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/scans/rubble_stativ02-{i:03}.jpg"
-    contour_on_original_path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/contour_on_original/contour_on_original_{i}.png"
-    contour_line_path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/contour_line/contour_{i}.png"
-    rubble_shape_path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/rubble_shape/rubble_shape_{i}.png"
+    rubble_path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/scans/rubble_stativ02-{i:03}.jpg"
+    contour_on_original_path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/contour_on_original/contour_on_original_{i}.png"
+    contour_line_path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/contour_line/contour_{i}.png"
+    rubble_shape_path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/rubble_shape/rubble_shape_{i}.png"
 
     # Load the rubble image
     image = cv2.imread(rubble_path)

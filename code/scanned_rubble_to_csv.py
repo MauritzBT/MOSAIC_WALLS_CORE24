@@ -8,9 +8,9 @@ image_nbr = 201
 for i in range((image_nbr+1)):
 
     # Path to save file
-    csv_path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/csv_files/rubble_{i}.csv"
+    csv_path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/csv_files/rubble_{i}.csv"
     # Path to contour
-    path = f"/Users/mvk/github2/reimagine/00_Scanning/scanned_rubble/contour_line/contour_{i}.png"
+    path = f"/Users/mvk/github2/reimagine/Final/MOSAIC_WALLS_CORE24/scanned_rubble/contour_line/contour_{i}.png"
     image = cv2.imread(path)
 
     # Prepare the image to get the most accurate contour
