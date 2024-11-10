@@ -7,6 +7,9 @@ The code has a pure python part, which can be run in VSCODE for example and a gr
 
 GITHUB
 ______________
+
+![Scanning Flowchart](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/scanning.png)
+
 - (import the rubble photos into scanned_rubble/scans) these files are already provided
 - install all packages with the requirements.txt file
 - update the file paths and inputs in the scanned_rubble_to_image.py code and run it
@@ -22,7 +25,6 @@ ______________
 GRASSHOPPER
 ______________
 
-![Test](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/Artboard%201%20copy.jpg)
 
 STEP 1: File SetUp
 
@@ -57,6 +59,9 @@ TROUBLE SHOOTING:
  - review how the file_path variable is completed with the i counter
  - test different ways to write the file_path (use the examples for troubleshooting)
 
+![Randon Rubble Generation Flowchart](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/random_rubble.png)
+
+
 Instructions for random rubble generator:
 1) Adjust number of duplicates
 2) Adjust grid size (for organization of curves)
@@ -69,11 +74,14 @@ Instructions for random rubble generator:
 
 STEP 3: Sort Rubble
 
+![Sorting Flowchart](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/sorting_flowchart.png)
+
 Instructions for sorting rubble:
 1) Set "Sort rubble?" to True
 
 
 STEP 4: Create wall, buttress, and cell geometries
+
 
 Instructions for wall, buttresses, and cells:
 1) Adjust wall dimensions
@@ -125,6 +133,9 @@ Instructions for wall, buttresses, and cells:
 
 STEP 5: Packing
 
+![Large Stone Flowchart 1](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/large_stone_packing.png)
+![Large Stone Flowchart 2](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/large_stone_packing2.png)
+
 SETTINGS:
  - Area tolerance: how much voided cell area is acceptable
  - General tolerance: how much difference in largest segment and base of cell
@@ -141,6 +152,8 @@ Instructions for packing:
 
 
 STEP 6: Pack Voids
+
+![Small Stone Flowchart](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/small_stone_packing.png)
 
 1) Select Type of rubble
    ELLIPSES:
@@ -166,3 +179,5 @@ Instructions for structural verification:
 7) Double click on the Evolutionary Solver and set the Fitness to Minimize
 8) Run the Evolutionary Solver until the fitness is minimized to your satisfaction
 9) Check shortest path length is within the acceptable range
+
+![Robotic Pick & Place Flowchart](https://github.com/MauritzBT/MOSAIC_WALLS_CORE24/blob/main/flowcharts/robotic_assembly.png)
