@@ -5,7 +5,6 @@
 #source env_name/bin/activate
 #install all packages required: 
 #pip3 install -r requirements.txt
-#into your terminal to install all packages
 
 numpy
 opencv-python
